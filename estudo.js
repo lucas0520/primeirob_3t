@@ -13,3 +13,23 @@ document.write(tabuada + " x 8 = " + (tabuada*8) + "<br>");
 document.write(tabuada + " x 9 = " + (tabuada*9) + "<br>");
 document.write(tabuada + " x 10 = " + (tabuada*10) + "<br>");
 }
+
+let lista = ["gilzinho","spessato","neuza","jesus","Duarte"];
+
+function mostraLista(){
+    document.write("tamanho da lista: "  +  lista.length + "<br>");
+    for(let i = 0; i <lista.length; i++){
+        document.write("professores: " + lista[i] + "<br>")
+    }
+}
+
+function multiplica (){
+      for(let i = 1; i <= 10; i++){
+      document.write("Taboada do = " + i + "<br>");
+      for(let j = 1; j <=10; j++){
+        document.write(i + " x"+j+ " = " + (i*j) + "<br>");
+
+      }
+      document.write("<br>")
+  }
+}
