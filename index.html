@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,22 +14,31 @@
         }
     </style>
 </head>
+
 <body>
-    valor: <input class="caixa" id="valor" type="text"><br>
-    Juros(Mensais): <input class="caixa" id="juros" type="text"><br>
-    Nr. Meses: <input class="caixa" id="meses" type="text"><br>
-    <button onclick="total()">Enviar</button>
+
+    <div class="calculadora">
+        <span id="totalgeral">total: 0,00</span><br>
+        valor: <input class="caixa" id="valor" type="text"><br>
+        Juros(Mensais): <input class="caixa" id="juros" type="text"><br>
+        Nr. Meses: <input class="caixa" id="meses" type="text"><br>
+        <button onclick="total()">Enviar</button>
+    </div>
+
+    <div>
+        <span id="mes">Meses</span>
+    </div>
 
     <br><br><br><br>
-        
-     <spam id="result">Resultado 0,00</spam><br> 
+
+    <spam id="result">Resultado 0,00</spam><br>
 
     Primeiro numero : <input class="caixa" id="n1" type="text"><br>
-    Segundo numero :  <input class="caixa" id="n2" type="text"><br>
-    Terceiro numero :  <input class="caixa" id="n3" type="text"><br>
-    Quarto numero :  <input class="caixa" id="n4" type="text"><br>
-        <button onclick="media()">Calcular a media</button>
-        <button onclick="soma()">Calcular a Soma</button>
+    Segundo numero : <input class="caixa" id="n2" type="text"><br>
+    Terceiro numero : <input class="caixa" id="n3" type="text"><br>
+    Quarto numero : <input class="caixa" id="n4" type="text"><br>
+    <button onclick="media()">Calcular a media</button>
+    <button onclick="soma()">Calcular a Soma</button>
 </body>
-</html>
 
+</html>
