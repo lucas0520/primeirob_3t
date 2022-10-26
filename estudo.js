@@ -70,13 +70,14 @@ function total(){
   let r = 0;
   for(let i=1; i <= t; i++){
      r = v * (1+(j/100));
-     document.write("Mês " +i + " valor: R$ "  + r + "<br>");
+
+     //document.write("Mês " +i + " valor: R$ "  + r + "<br>");
      v = r;
   }
-  
-  document.write("resultado: " + moeda(r));
+  document.getElementById("totalgeral").innerHTML="total:" +moeda(r)
+  //document.write("resultado: " + moeda(r));
 
-      document.write("resultado:R$" + moeda(r));
+     
 
       
 
