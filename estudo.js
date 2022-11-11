@@ -103,3 +103,19 @@ function soma() {
   let moeda = (Number(n1) + Number(n2) + Number(n3) + Number(n4));
   document.getElementById("result").innerHTML = "soma: " + moeda(r);
 }
+let a = 5;
+let b = -1;
+let  c = -6;
+let raiz_quadrada;
+let x1,x2;
+function caucularRaiz(){
+  let delta = (b*b)-(4*a*c);
+  document.getElementById("raiz").innerHTML = "x1"= + x1 + " e x2=" +x2;
+  if (delta < 0){
+
+  }else{
+     raiz_quadrada = Math.sqrt(delta);
+     x1 = ((-b) + raiz_quadrada)/(2*a);
+     x2 = ((-b) - raiz_quadrada)/(2*a);
+  }
+}
